@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./bootstrap.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.6/css/dataTables.dataTables.min.css"></script>
+    <script src="https://cdn.datatables.net/2.0.6/js/dataTables.min.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div>Logo</div>
+        <div class="flex-container">
+            <div>Home</div>
+            <div>Contato</div>
+            <div>Telefone</div>
+        </div>
+    </div>
+    <div>
+        <p key="203123">Henrique
+        </p>
+    </div>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td id="name"></td>
+                <td id="age">29</td>
+            </tr>
+            <tr>
+                <td id="name">Carlos</td>
+                <td id="age">40</td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="number">
+    <button onclick="execute()" id="btn">Add</button>
+</body>
+
+<script src="./index.js"></script>
+</body>
+
+</html>
