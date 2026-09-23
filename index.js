@@ -1,5 +1,6 @@
 function ola(nome){
     console.log(nome)
+    console.log('pr')
 }
 
 const value = $('p[key="203123"]').text();
